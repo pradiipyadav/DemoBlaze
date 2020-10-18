@@ -10,5 +10,6 @@ To run this project
 run command **mvn verify**
 
 **Logs** can be found at: */serenity-demo/logs/*
+
 **Report** file can be found at: */serenity-demo/target/site/serenity/index.html*
 
