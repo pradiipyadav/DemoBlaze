@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="PetStore Demo" skipped="0" tests="2" time="20.5" timestamp="2020-10-18 02:59:44"><testcase name="Get available Pets"/><testcase name="Post new Pet and delete the pet"/></testsuite>

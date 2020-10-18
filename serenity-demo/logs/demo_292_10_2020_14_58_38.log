@@ -1,0 +1,596 @@
+2020-10-18 14:59:39.454 [main] INFO  serenity.serenity_pages.DemoBlazeIndex - Order Amount 790
+2020-10-18 14:59:39.474 [main] INFO  serenity.serenity_pages.DemoBlazeIndex - Order Id 3218985
+2020-10-18 14:59:53.232 [main] INFO  serenity.serenity_demo_stepdefs.PetStoreStepDefs - Pets [
+    {
+        "id": 9219734994001405286,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 112233,
+        "category": {
+            "id": 30,
+            "name": "Eq-dog"
+        },
+        "name": "Postman",
+        "photoUrls": [
+            "URLLink"
+        ],
+        "tags": [
+            {
+                "id": 10,
+                "name": "Doberman"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 2,
+        "category": {
+            "id": 3,
+            "name": ""
+        },
+        "name": "",
+        "photoUrls": [
+            ""
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": ""
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 24,
+        "category": {
+            "id": 0,
+            "name": ""
+        },
+        "name": "",
+        "photoUrls": [
+            ""
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": ""
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 123,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie123",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9219734994001405455,
+        "category": {
+            "id": 100,
+            "name": "Dinosaur"
+        },
+        "name": "Tyrannosaurus",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 100,
+                "name": "reptile"
+            },
+            {
+                "id": 101,
+                "name": "dinosaur"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 991,
+        "category": {
+            "id": 87,
+            "name": "category991"
+        },
+        "name": "Llama",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 166,
+        "category": {
+            "id": 121,
+            "name": "Name2a172f16-9190-4436-92c6-285526b24629"
+        },
+        "name": "Namedce5afaa-0fd8-4b90-b1f2-ed1187c4c04a",
+        "photoUrls": [
+            "fced2185-89e7-4363-beaf-34418029a197",
+            "c8674c92-7af2-493b-8035-c524efbfadc1",
+            "da106769-f8b2-42f4-b767-ef4b5e74f78a"
+        ],
+        "tags": [
+            {
+                "id": 146,
+                "name": "Named652ba1f-8d3e-44ce-a185-b2dcce249851"
+            },
+            {
+                "id": 144,
+                "name": "Name5f26fbc9-e5f1-4038-904e-f98cdcce5ab0"
+            },
+            {
+                "id": 106,
+                "name": "Name61929307-1a2f-42d5-9ebe-63861bfe83af"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9219734994001405528,
+        "category": {
+            "id": 100,
+            "name": "Dinosaur"
+        },
+        "name": "Tyrannosaurus",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 100,
+                "name": "reptile"
+            },
+            {
+                "id": 101,
+                "name": "dinosaur"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9219734994001405532,
+        "category": {
+            "id": 100,
+            "name": "Dinosaur"
+        },
+        "name": "Tyrannosaurus",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 100,
+                "name": "reptile"
+            },
+            {
+                "id": 101,
+                "name": "dinosaur"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9219734994001405536,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9219734994001405565,
+        "category": {
+            "id": 100,
+            "name": "Dinosaur"
+        },
+        "name": "Tyrannosaurus",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 100,
+                "name": "reptile"
+            },
+            {
+                "id": 101,
+                "name": "dinosaur"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9219734994001405595,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 11111,
+        "category": {
+            "id": 1010011,
+            "name": "test_doggy"
+        },
+        "name": "test_doggy",
+        "photoUrls": [
+            "VdAk5BikvwpbfgcH"
+        ],
+        "tags": [
+            {
+                "id": 100101,
+                "name": "test_doggy"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1111212,
+        "name": "rest1212",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9219734994001405607,
+        "category": {
+            "id": 0,
+            "name": "scuba"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "https://currentphotourl"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9219734994001405615,
+        "category": {
+            "id": 100,
+            "name": "Dinosaur"
+        },
+        "name": "Tyrannosaurus",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 100,
+                "name": "reptile"
+            },
+            {
+                "id": 101,
+                "name": "dinosaur"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9219734994001405667,
+        "category": {
+            "id": 0,
+            "name": "dog"
+        },
+        "name": "Rex",
+        "photoUrls": [
+            "http://example.com/images/rex.png"
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1234567890,
+        "category": {
+            "id": 10,
+            "name": "labrador"
+        },
+        "name": "tommy",
+        "photoUrls": [
+            "C:/Projects/lk_tester/src/main/resources/Bruno.jpg"
+        ],
+        "tags": [
+            {
+                "id": 721,
+                "name": "7B"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9219734994001405716,
+        "category": {
+            "id": 100,
+            "name": "Dinosaur"
+        },
+        "name": "Tyrannosaurus",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 100,
+                "name": "reptile"
+            },
+            {
+                "id": 101,
+                "name": "dinosaur"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9219734994001405721,
+        "category": {
+            "id": 100,
+            "name": "Dinosaur"
+        },
+        "name": "Tyrannosaurus",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 100,
+                "name": "reptile"
+            },
+            {
+                "id": 101,
+                "name": "dinosaur"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9219734994001405732,
+        "category": {
+            "id": 100,
+            "name": "Dinosaur"
+        },
+        "name": "Tyrannosaurus",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 100,
+                "name": "reptile"
+            },
+            {
+                "id": 101,
+                "name": "dinosaur"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9219734994001405750,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1245,
+        "category": {
+            "id": 1245,
+            "name": "xyz"
+        },
+        "name": "xyz",
+        "photoUrls": [
+            "test"
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9219734994001405757,
+        "category": {
+            "id": 100,
+            "name": "Dinosaur"
+        },
+        "name": "Tyrannosaurus",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 100,
+                "name": "reptile"
+            },
+            {
+                "id": 101,
+                "name": "dinosaur"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9219734994001405761,
+        "category": {
+            "id": 100,
+            "name": "Dinosaur"
+        },
+        "name": "Tyrannosaurus",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 100,
+                "name": "reptile"
+            },
+            {
+                "id": 101,
+                "name": "dinosaur"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9219734994001405763,
+        "category": {
+            "id": 100,
+            "name": "Dinosaur"
+        },
+        "name": "Tyrannosaurus",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 100,
+                "name": "reptile"
+            },
+            {
+                "id": 101,
+                "name": "dinosaur"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9219734994001405764,
+        "category": {
+            "id": 100,
+            "name": "Dinosaur"
+        },
+        "name": "Tyrannosaurus",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 100,
+                "name": "reptile"
+            },
+            {
+                "id": 101,
+                "name": "dinosaur"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9219734994001405765,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9219734994001405771,
+        "category": {
+            "id": 100,
+            "name": "Dinosaur"
+        },
+        "name": "Tyrannosaurus",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 100,
+                "name": "reptile"
+            },
+            {
+                "id": 101,
+                "name": "dinosaur"
+            }
+        ],
+        "status": "available"
+    }
+]
+2020-10-18 14:59:56.934 [main] INFO  serenity.serenity_demo_stepdefs.PetStoreStepDefs - Pet added with id: 169
+2020-10-18 15:00:01.219 [main] INFO  serenity.serenity_demo_stepdefs.PetStoreStepDefs - Pet status updated to: Sold
+2020-10-18 15:00:05.350 [main] INFO  serenity.serenity_demo_stepdefs.PetStoreStepDefs - Pet status deleted as get request https://petstore.swagger.io/v2/pet/169 returns 404 

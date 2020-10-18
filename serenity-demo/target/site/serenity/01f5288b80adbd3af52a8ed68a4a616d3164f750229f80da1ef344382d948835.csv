@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Demoblaze","Demoblaze confirm price","SUCCESS","2020-10-18T14:58:36.9348921+05:30[Asia/Calcutta]","0.0","66.37"
+"PetStore Demo","Get available Pets","SUCCESS","2020-10-18T14:59:44.7982561+05:30[Asia/Calcutta]","0.0","8.45"
+"PetStore Demo","Post new Pet and delete the pet","SUCCESS","2020-10-18T14:59:53.3054342+05:30[Asia/Calcutta]","0.0","12.05"

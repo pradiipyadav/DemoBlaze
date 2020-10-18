@@ -1,0 +1,5 @@
+runner\Runner.class
+serenity\serenity_steps\DemoBlazeSteps.class
+serenity\serenity_demo_stepdefs\DemoBlazeStepDefs.class
+serenity\serenity_demo_stepdefs\PetStoreStepDefs.class
+serenity\serenity_pages\DemoBlazeIndex.class

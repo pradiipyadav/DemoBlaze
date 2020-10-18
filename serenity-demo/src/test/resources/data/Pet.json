@@ -1,0 +1,272 @@
+[
+  {
+    "id": 9222238193004894000,
+    "category": {
+      "id": 0,
+      "name": "string"
+    },
+    "name": "doggie",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  },
+  {
+    "id": 201,
+    "category": {
+      "id": 0,
+      "name": "string"
+    },
+    "name": "swan",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  },
+  {
+    "id": 202,
+    "category": {
+      "id": 0,
+      "name": "string"
+    },
+    "name": "pepper",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  },
+  {
+    "id": 203,
+    "category": {
+      "id": 0,
+      "name": "string"
+    },
+    "name": "black",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  },
+  {
+    "id": 204,
+    "category": {
+      "id": 0,
+      "name": "string"
+    },
+    "name": "tiger",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  },
+  {
+    "id": 205,
+    "category": {
+      "id": 0,
+      "name": "string"
+    },
+    "name": "broony",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  },
+  {
+    "id": 9877,
+    "category": {
+      "id": 0,
+      "name": "string"
+    },
+    "name": "air buddyy",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  },
+  {
+    "id": 1245,
+    "category": {
+      "id": 1245,
+      "name": "xyz"
+    },
+    "name": "xyz",
+    "photoUrls": [
+      "test"
+    ],
+    "tags": [],
+    "status": "available"
+  },
+  {
+    "id": 112233,
+    "category": {
+      "id": 30,
+      "name": "Eq-dog"
+    },
+    "name": "Postman",
+    "photoUrls": [
+      "URLLink"
+    ],
+    "tags": [
+      {
+        "id": 10,
+        "name": "Doberman"
+      }
+    ],
+    "status": "available"
+  },
+  {
+    "id": 9222238193004894000,
+    "category": {
+      "id": 0,
+      "name": "string"
+    },
+    "name": "doggie",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  },
+  {
+    "id": 9222238193004894000,
+    "category": {
+      "id": 0,
+      "name": "Jerry"
+    },
+    "name": "Mouse",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "Mouse"
+      }
+    ],
+    "status": "available"
+  },
+  {
+    "id": 9222238193004894000,
+    "category": {
+      "id": 0,
+      "name": "string"
+    },
+    "name": "doggie",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  },
+  {
+    "id": 10,
+    "category": {
+      "id": 0,
+      "name": "parrots"
+    },
+    "name": "janu",
+    "photoUrls": [
+      "parrot pets"
+    ],
+    "tags": [
+      {
+        "id": 20,
+        "name": "janu"
+      }
+    ],
+    "status": "available"
+  },
+  {
+    "id": 9222238193004894000,
+    "category": {
+      "id": 0,
+      "name": "string"
+    },
+    "name": "doggie",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  },
+  {
+    "id": 1,
+    "category": {
+      "id": 1,
+      "name": "<string>"
+    },
+    "name": "<string>",
+    "photoUrls": [
+      "<string>",
+      "<string>"
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "<string>"
+      },
+      {
+        "id": 1,
+        "name": "<string>"
+      }
+    ],
+    "status": "available"
+  }
+]
