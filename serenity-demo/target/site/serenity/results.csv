@@ -1,4 +1,5 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Demoblaze","Demoblaze confirm price","SUCCESS","2020-10-18T14:58:36.9348921+05:30[Asia/Calcutta]","0.0","66.37"
-"PetStore Demo","Get available Pets","SUCCESS","2020-10-18T14:59:44.7982561+05:30[Asia/Calcutta]","0.0","8.45"
-"PetStore Demo","Post new Pet and delete the pet","SUCCESS","2020-10-18T14:59:53.3054342+05:30[Asia/Calcutta]","0.0","12.05"
+"Demoblaze","Customer navigation through product categories","SUCCESS","2020-10-19T12:06:25.2233507+05:30[Asia/Calcutta]","0.0","38.67"
+"Demoblaze","Demoblaze confirm price","SUCCESS","2020-10-19T12:07:03.9066562+05:30[Asia/Calcutta]","0.0","33.8"
+"PetStore Demo","Get available Pets","SUCCESS","2020-10-19T12:07:38.9000804+05:30[Asia/Calcutta]","0.0","7.07"
+"PetStore Demo","Post new Pet and delete the pet","SUCCESS","2020-10-19T12:07:45.9867854+05:30[Asia/Calcutta]","0.0","10.85"

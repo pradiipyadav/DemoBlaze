@@ -28,8 +28,8 @@ public class DemoBlazeIndex extends PageObject {
 	@FindBy(xpath = "//tr[@class='success']/td[3]")
 	WebElementFacade price;
 	
-	String laptop = "(//a[contains(text(),'{0}')])[1]";
-	
+	String prod = "(//a[contains(text(),'{0}')])[1]";
+		
 	By phone = By.xpath("(//p[contains(text(),'Qualcomm')])[1]");
 	
 	@FindBy(xpath="//a[text()='Add to cart']")
@@ -100,11 +100,11 @@ public class DemoBlazeIndex extends PageObject {
 	
 	public void addToCart(String product) {
 		
-		waitFor(ExpectedConditions.numberOfElementsToBeMoreThan(By.xpath(laptop.replaceAll("\\{0\\}", product)), 0));
+		waitFor(ExpectedConditions.numberOfElementsToBeMoreThan(By.xpath(prod.replaceAll("\\{0\\}", product)), 0));
 		try {
-		findBy(laptop, product).click();
+		findBy(prod, product).click();
 		}catch (StaleElementReferenceException e) {
-			findBy(laptop, product).click();
+			findBy(prod, product).click();
 		}
 		
 		addToCart.waitUntilClickable().click();
@@ -177,6 +177,7 @@ public class DemoBlazeIndex extends PageObject {
         LOGGER.info("Order Id " + id);
 
         Assert.assertEquals(prodPrice, amount);
+        LOGGER.info("Asserted purchase amount equals expected. " + "Purchase amount: " + amount +" | Product price: " + prodPrice );
         
         
 	}
@@ -184,6 +185,12 @@ public class DemoBlazeIndex extends PageObject {
 	public void click_on_ok() {
 
 		okBtn.waitUntilClickable().click();
+	}
+
+	public void assertProd(String prod) {
+
+
+		Assert.assertEquals(true, findBy(this.prod, prod).isDisplayed());
 	}
 	
 	

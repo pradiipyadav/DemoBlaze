@@ -33,7 +33,7 @@ public class PetStoreStepDefs {
 	private String pet;
 	private String findby;
 	
-	RequestSpecification requestSpecification;
+	RequestSpecification requestSpecification, petRequestSpecification;
 
 	private int random;
 
@@ -66,7 +66,10 @@ public class PetStoreStepDefs {
 				.queryParam("status", status)
 				.when()
 				.get("{pet}/{findBy}");
-				response.prettyPrint();
+		 LOGGER.info("-----------------------------------------API TEST---------------------------------------------------");
+		 LOGGER.info("Requesting for Pets with status: " + status);
+
+		 response.prettyPrint();
 				
 	}
 
@@ -79,7 +82,7 @@ public class PetStoreStepDefs {
 		restAssuredThat(lastResponse -> lastResponse.body("status", hasItem("available")));
 		
 		
-		 LOGGER.info("Pets " + response.prettyPrint());
+		 LOGGER.info("All available Pets " + response.prettyPrint());
 
 
 
@@ -117,23 +120,25 @@ public class PetStoreStepDefs {
 				+ "  ],\r\n"
 				+ "  \"status\": \"available\"\r\n"
 				+ "}").post();
-	   
+		
+		LOGGER.info("Adding a new Pet with id : " + random);
+
 		SerenityRest.lastResponse().prettyPrint();
 	}
 
 	@Then("I should see Pet added")
 	public void i_should_see_pet_added() {
 	    
-		 SerenityRest.given()
+		petRequestSpecification = SerenityRest.given()
 		.baseUri(theRestApiBaseUrl)
-		.pathParam("petid", random)
-		.get("pet/{petid}");
+		.pathParam("petid", random);
+		petRequestSpecification.get("pet/{petid}");
 		 
 		 SerenityRest.lastResponse().prettyPrint();
 		
 		 restAssuredThat(lastResponse -> lastResponse.statusCode(200));
 		 
-		 LOGGER.info("Pet added with id: " + random);
+		 LOGGER.info("New Pet added with id: " + random);
 
 
 		
@@ -164,6 +169,8 @@ public class PetStoreStepDefs {
 				+ "}")
 		.put();
 		
+		LOGGER.info("Updating Pet status to : " + status);
+
 		SerenityRest.lastResponse().prettyPrint();
 
 
@@ -172,9 +179,7 @@ public class PetStoreStepDefs {
 	@Then("Pet status should be updated")
 	public void pet_status_should_be_updated() {
 	   
-		SerenityRest.given()
-		.baseUri(theRestApiBaseUrl)
-		.pathParam("petid", random)
+		petRequestSpecification
 		.get("pet/{petid}");
 		 
 		 SerenityRest.lastResponse().prettyPrint();
@@ -188,25 +193,23 @@ public class PetStoreStepDefs {
 	@When("I delete the new pet")
 	public void i_delete_the_new_pet() {
 		
-		SerenityRest.given()
-		.baseUri(theRestApiBaseUrl)
-		.pathParam("petid", random)
+		petRequestSpecification
 		.delete("pet/{petid}");
 		SerenityRest.lastResponse().prettyPrint();
+		 LOGGER.info("Deleting Pet: " + random);
+
 
 	}
 
 	@Then("Pet should be deleted")
 	public void pet_should_be_deleted() {
 
-		SerenityRest.given()
-		.baseUri(theRestApiBaseUrl)
-		.pathParam("petid", random)
+		petRequestSpecification
 		.get("pet/{petid}");
 		
 		restAssuredThat(lastResponse -> lastResponse.statusCode(404));
 		
-		 LOGGER.info("Pet status deleted as get request " +theRestApiBaseUrl + "pet/" + random + " returns 404 ");
+		LOGGER.info("Pet status deleted as get request " +theRestApiBaseUrl + "pet/" + random + " returns 404 ");
 
 
 		

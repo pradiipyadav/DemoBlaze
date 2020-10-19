@@ -1,6 +1,18 @@
-@Search
+@DemoBlaze
 Feature: Demoblaze
 
+  Scenario Outline: Customer navigation through product categories: Phones, Laptops and Monitors
+    Given customer is on "https://www.demoblaze.com/index.html"
+    When customer navigates to "<category>"
+    Then customer should see "<product>"
+
+    Examples: 
+      | category | product           |
+      | Phones   | Samsung galaxy s6 |
+      | Laptops  | MacBook air       |
+      | Monitors | Apple monitor 24  |
+
+      
   Scenario: Demoblaze confirm price
     Given customer is on "https://www.demoblaze.com/index.html"
     When customer navigates to "Laptops"
@@ -12,3 +24,4 @@ Feature: Demoblaze
     And Complete the order
     Then Order amount should be equal to product price
     And Click on Ok
+  

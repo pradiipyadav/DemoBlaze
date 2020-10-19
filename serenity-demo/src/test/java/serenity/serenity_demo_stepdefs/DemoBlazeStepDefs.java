@@ -24,6 +24,12 @@ public class DemoBlazeStepDefs {
 		customer.catNav(laptop);
 	}
 
+	@Then("customer should see {string}")
+	public void customer_should_see(String prod) {
+	   
+		customer.customer_should_see(prod);
+	}
+	
 	@When("Add to cart product {string}")
 	public void add_to_cart_product(String product) {
 		customer.addToCart(product);

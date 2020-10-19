@@ -1,0 +1,155 @@
+2020-10-19 12:06:36.175 [main] INFO  serenity.serenity_steps.DemoBlazeSteps - Customer navigated to url: https://www.demoblaze.com/index.html
+2020-10-19 12:06:37.589 [main] INFO  serenity.serenity_steps.DemoBlazeSteps - Customer navigated to category: Phones
+2020-10-19 12:06:38.517 [main] INFO  serenity.serenity_steps.DemoBlazeSteps - Customer can see product Samsung galaxy s6 from category Phones
+2020-10-19 12:06:48.023 [main] INFO  serenity.serenity_steps.DemoBlazeSteps - Customer navigated to url: https://www.demoblaze.com/index.html
+2020-10-19 12:06:49.096 [main] INFO  serenity.serenity_steps.DemoBlazeSteps - Customer navigated to category: Laptops
+2020-10-19 12:06:50.126 [main] INFO  serenity.serenity_steps.DemoBlazeSteps - Customer can see product MacBook air from category Laptops
+2020-10-19 12:06:59.662 [main] INFO  serenity.serenity_steps.DemoBlazeSteps - Customer navigated to url: https://www.demoblaze.com/index.html
+2020-10-19 12:07:00.614 [main] INFO  serenity.serenity_steps.DemoBlazeSteps - Customer navigated to category: Monitors
+2020-10-19 12:07:02.091 [main] INFO  serenity.serenity_steps.DemoBlazeSteps - Customer can see product Apple monitor 24 from category Monitors
+2020-10-19 12:07:10.554 [main] INFO  serenity.serenity_steps.DemoBlazeSteps - Customer navigated to url: https://www.demoblaze.com/index.html
+2020-10-19 12:07:11.601 [main] INFO  serenity.serenity_steps.DemoBlazeSteps - Customer navigated to category: Laptops
+2020-10-19 12:07:16.037 [main] INFO  serenity.serenity_steps.DemoBlazeSteps - Customer added: Sony vaio i5 to cart
+2020-10-19 12:07:23.425 [main] INFO  serenity.serenity_steps.DemoBlazeSteps - Customer added: Dell i7 8gb to cart
+2020-10-19 12:07:30.056 [main] INFO  serenity.serenity_steps.DemoBlazeSteps - Customer deleted: Dell i7 8gb from cart
+2020-10-19 12:07:30.868 [main] INFO  serenity.serenity_steps.DemoBlazeSteps - Customer clicked on "Place order".
+2020-10-19 12:07:33.525 [main] INFO  serenity.serenity_steps.DemoBlazeSteps - Customer filled web form details.
+2020-10-19 12:07:34.230 [main] INFO  serenity.serenity_steps.DemoBlazeSteps - Customer clicked on "Purchase"
+2020-10-19 12:07:34.785 [main] INFO  serenity.serenity_steps.DemoBlazeSteps - Capturing and log purchase Id and Amount.
+2020-10-19 12:07:34.912 [main] INFO  serenity.serenity_pages.DemoBlazeIndex - Order Amount 790
+2020-10-19 12:07:34.913 [main] INFO  serenity.serenity_pages.DemoBlazeIndex - Order Id 350384
+2020-10-19 12:07:34.913 [main] INFO  serenity.serenity_pages.DemoBlazeIndex - Asserted purchase amount equals expected. Purchase amount: 790 | Product price: 790
+2020-10-19 12:07:37.019 [main] INFO  serenity.serenity_steps.DemoBlazeSteps - Customer clicked on OK
+2020-10-19 12:07:44.886 [main] INFO  serenity.serenity_demo_stepdefs.PetStoreStepDefs - -----------------------------------------API TEST---------------------------------------------------
+2020-10-19 12:07:44.887 [main] INFO  serenity.serenity_demo_stepdefs.PetStoreStepDefs - Requesting for Pets with status: available
+2020-10-19 12:07:45.963 [main] INFO  serenity.serenity_demo_stepdefs.PetStoreStepDefs - All available Pets [
+    {
+        "id": 9221306167782736364,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9221306167782736365,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 112233,
+        "category": {
+            "id": 30,
+            "name": "Eq-dog"
+        },
+        "name": "Postman",
+        "photoUrls": [
+            "URLLink"
+        ],
+        "tags": [
+            {
+                "id": 10,
+                "name": "Doberman"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 1245,
+        "category": {
+            "id": 1245,
+            "name": "xyz"
+        },
+        "name": "xyz",
+        "photoUrls": [
+            "test"
+        ],
+        "tags": [
+            
+        ],
+        "status": "available"
+    },
+    {
+        "id": 9221306167782736673,
+        "category": {
+            "id": 0,
+            "name": "Jerry"
+        },
+        "name": "Mouse",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "Mouse"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 10,
+        "category": {
+            "id": 0,
+            "name": "parrots"
+        },
+        "name": "janu",
+        "photoUrls": [
+            "parrot pets"
+        ],
+        "tags": [
+            {
+                "id": 20,
+                "name": "janu"
+            }
+        ],
+        "status": "available"
+    },
+    {
+        "id": 614,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "available"
+    }
+]
+2020-10-19 12:07:48.209 [main] INFO  serenity.serenity_demo_stepdefs.PetStoreStepDefs - Adding a new Pet with id : 941
+2020-10-19 12:07:50.304 [main] INFO  serenity.serenity_demo_stepdefs.PetStoreStepDefs - New Pet added with id: 941
+2020-10-19 12:07:51.946 [main] INFO  serenity.serenity_demo_stepdefs.PetStoreStepDefs - Updating Pet status to : Sold
+2020-10-19 12:07:53.587 [main] INFO  serenity.serenity_demo_stepdefs.PetStoreStepDefs - Pet status updated to: Sold
+2020-10-19 12:07:55.232 [main] INFO  serenity.serenity_demo_stepdefs.PetStoreStepDefs - Deleting Pet: 941
+2020-10-19 12:07:56.835 [main] INFO  serenity.serenity_demo_stepdefs.PetStoreStepDefs - Pet status deleted as get request https://petstore.swagger.io/v2/pet/941 returns 404 
