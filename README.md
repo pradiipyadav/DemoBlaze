@@ -1,6 +1,7 @@
 # DemoBlaze
 
 Pre requisite:
+
 **install Open JDK 14 or Java 8+**
 
 **install maven** 
