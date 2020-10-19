@@ -7,7 +7,7 @@ Pre requisite:
 **install maven** 
 
 This project has feature files under src/test/resources/features/*
-We can enabled test by tag name in runner file, eg: **tags = "@pets"**
+We can enable test by adding tag name in runner file, eg: **tags = "@pets"**
 
 To run this project
 run command **mvn verify**
