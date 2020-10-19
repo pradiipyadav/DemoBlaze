@@ -1,6 +1,7 @@
-# DemoBlaze
+# DemoBlaze and PetStore
+## Currently test is created only for **Windows and Chrome** as project has windows chromedriver only
 
-Pre requisite:
+### Pre requisite:
 
 **install Open JDK 14 or Java 8+**
 
