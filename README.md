@@ -2,7 +2,8 @@
 
 Pre requisite:
 **install Open JDK 14 or Java 8+**
-** install maven ** 
+
+**install maven** 
 
 This project has feature files under src/test/resources/features/*
 We can enabled test by tag name in runner file, eg: **tags = "@pets"**
